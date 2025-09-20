@@ -1,0 +1,82 @@
+
+body {
+  background: #f8f9fa; 
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.emi-form{
+    max-width: 700px;
+    margin-bottom: 80px;
+}
+
+.emi-form .card {
+  border-radius: 15px;
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.emi-form .card:hover {
+  transform: translateY(-5px);
+}
+
+.emi-form h2 {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  border-left: 5px solid #0d6efd;
+  padding-left: 10px;
+}
+
+.emi-form .form-label {
+  font-weight: 600;
+  color: #495057;
+}
+
+.emi-form .form-control {
+  border-radius: 8px;
+  padding: 12px 15px;
+  border: 1px solid #ced4da;
+  transition: all 0.2s ease-in-out;
+}
+
+.emi-form .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0px 0px 6px rgba(13, 110, 253, 0.5);
+}
+
+.invalid-feedback {
+  font-size: 0.85rem;
+  color: #e74c3c;
+}
+
+.emi-form .btn-primary {
+  background: linear-gradient(90deg, #0d6efd, #0b5ed7);
+  border: none;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+}
+
+.emi-form .btn-primary:hover {
+  background: linear-gradient(90deg, #0b5ed7, #0a58ca);
+  transform: scale(1.02);
+  box-shadow: 0px 6px 15px rgba(13, 110, 253, 0.4);
+}
+
+.emi-form p.text-success {
+  font-size: 1rem;
+  margin-top: 15px;
+  background: #eafbea;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #a3e4a3;
+}
+
+.site-btn{
+    color: white;
+    letter-spacing: 1px;
+    font-size: 19px;
+    border: none;
+}
